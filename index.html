@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Website</title>
+    <link rel="stylesheet" type="text/css" href="mystyles.css">
+    <script src="scr.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+    <script type="text/javascript" src="map.js"></script>
+  </head>
+  <body>
+    <h2> About me</h2>
+    <div class="box1">
+      <h4>School</h4>
+        <p>I am currently a junior at the American School of Correspondance. It's a distance school, so everything I do for it is at home, on my computer. Because of that, lot of the time I will call myself homeschooled, even though the school is recognized at a private school.</p>
+      <h4>Family</h4>
+        <p>I have an older sister, an older brother, and a younger brother. My older brother is about to start college, and my younger brother is 14 now. My sister doesn't live with us anymore, but she has a baby daughter that I get to watch occasionally.</p>
+      <h4>Other things</h4>
+        <p>I have 8 pets, and half of them are cats. I like cats.</p>
+        <p>I don't exactly have hobbies, the only things I do in my freetime is scroll through instagram and watch youtube.</p>
+        <p>The only thing I know about where my family is from is that I have one great grandparent who came here from Austria, which makes me like 12% Austrian.</p>
+    </div>
+    <br></br>
+    <h3>A picture</h3>
+    <div class="box1">
+      <center>
+      <p>This is one of my cats, his name is Beans.</p>
+        <img src="bean.jpg" width="200" height="250">
+      <br></br>
+      </center>
+    </div>
+      <br></br>
+      <center>
+      <h3>A very fitting map</h3>
+      <p>
+        <textarea id='locname' rows="1" cols="20">Input a Country</textarea>
+        <button onclick='makereq()'>Pan to Location</button>
+        <button onclick="panhome()">Pan back home</button>
+      </p>
+      <div id="map" class="map"></div>
+      <br></br>
+      <div>My Social Media Links:</div>
+      <a href="https://www.instagram.com/xkatherynn/" target="_blank">Instagram</a>
+      <div><a href="https://www.linkedin.com/in/mary-glover-19407018a/" target="_blank">LinkedIn</a></div>
+      <footer>
+      <br></br>
+      <p>API used: <a href="http://openlayers.org/en/latest/apidoc/" target="_blank">Open Layers API</a></p>
+    </footer>
+      </center>
+  </body>
+</html>
